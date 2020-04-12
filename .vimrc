@@ -38,7 +38,7 @@ set mouse=a
 " "press <Enter> to continue"
 set cmdheight=2
 
-
+" Sets file locations for backup files
 set backup
 set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 set backupskip=/tmp/*,/private/tmp/*
@@ -90,7 +90,7 @@ set hlsearch
 
 " When opening a new line and no filetype-specific indenting is enabled, keep
 " the same indent as the line you're currently on. Useful for READMEs, etc.
-set autoindent
+set smartindent
 
 " Indentation settings for using 4 spaces instead of tabs.
 " Do not change 'tabstop' from its default value of 8 with this setup.
