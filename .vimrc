@@ -122,3 +122,14 @@ nnoremap <F5> :w<CR> :make<CR>
 " Open error window on the left with 80 character width
 nnoremap <leader>e :copen<CR> <C-w>H :vert res 80<CR>
 
+" Bind tab to escape (still able to insert using shift+tab)
+" Normal mode
+nnoremap <Tab> <Esc>
+" Visual mode
+vnoremap <Tab> <Esc>gV
+" Operator mode
+onoremap <Tab> <Esc>
+" Insert mode
+inoremap <Tab> <Esc>`^
+" inoremap <Leader><Tab> <Tab>
+
