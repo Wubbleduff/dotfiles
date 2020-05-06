@@ -153,7 +153,7 @@ call <sid>hi('TabLineSel'                , '05', '02', '')
 " Standard syntax highlighting
 call <sid>hi('Boolean'                   , '09', ''  , '')
 call <sid>hi('Character'                 , '0C', ''  , '')
-call <sid>hi('Comment'                   , '03', ''  , 'italic')
+call <sid>hi('Comment'                   , '03', ''  , '')
 call <sid>hi('Conditional'               , '0E', ''  , '')
 call <sid>hi('Constant'                  , '09', ''  , '')
 call <sid>hi('Define'                    , '0E', ''  , '')
