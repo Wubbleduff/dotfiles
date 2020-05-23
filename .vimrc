@@ -7,6 +7,10 @@
 " have made, as well as sanely reset options when re-sourcing .vimrc
 set nocompatible
 
+" Windows compatability
+" source $VIMRUNTIME/mswin.vim
+" behave mswin
+
 " Attempt to determine the type of a file based on its name and possibly its
 " " contents. Use this to allow intelligent auto-indenting for each filetype,
 " " and for plugins that are filetype specific.
@@ -64,6 +68,9 @@ colorscheme moonlight
 
 " Display line numbers on the left
 set number
+
+" Set relative numbering
+set relativenumber
 
 " Highlight searches (use <C-L> to temporarily turn off highlighting; see
 " the mapping of <C-L> below)
