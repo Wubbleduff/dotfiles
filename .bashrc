@@ -22,7 +22,7 @@ MY_USER="${BLUE}\u${RESET}"
 MY_HOSTNAME="${GREEN}\h${RESET}"
 MY_CURRENT_DIRECTORY="${GRAY}\w"
 # PS1='[\u@\h \W]\$ '
-PS1="${MY_USER}@${MY_HOSTNAME}${RESET}:${BOLD}${MY_CURRENT_DIRECTORY}${RESET}$ "
+PS1="${MY_USER}@${MY_HOSTNAME}${RESET}:${BOLD}${MY_CURRENT_DIRECTORY}${RESET}\n$ "
 
 # xterm
 # [ -n "$XTERM_VERSION" ] && transset-df --id "$WINDOWID" >/dev/null
