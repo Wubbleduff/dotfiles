@@ -1,0 +1,9 @@
+
+Add a login session for LightDM
+- Copy and add a new .desktop file in /usr/shares/xsessions/...
+
+Setting up multiple monitors
+- Use "arandr" to generate a script for the monitor layout and scaling
+  Example: "xrandr --output DP-0 --off --output DP-1 --off --output HDMI-0 --mode 1920x1200 --pos 4480x0 --rotate left --output DP-2 --primary --mode 2560x1440 --pos 1920x0 --rotate normal --output DP-3 --off --output DP-4 --mode 1920x1200 --pos 0x0 --rotate normal --output DP-5 --off --output USB-C-0 --off"
+- Add the command to the end of ~/.profile to set the layout on every login
+
